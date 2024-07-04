@@ -1,0 +1,34 @@
+.audio-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.audio-row audio {
+  width: 100%; /* 调整音频播放器的宽度 */
+  max-width: 600px; /* 最大宽度 */
+  margin-bottom: 10px;
+}
+
+.audio-row p {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+
+ /* 手机*/
+ @media screen and (max-width: 550px) {
+  .content-li{
+    display: block;
+  }
+  .li1-box{
+    display: block !important;
+  }
+  .li2-box{
+    padding: 10px;
+  }
+}

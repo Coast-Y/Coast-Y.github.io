@@ -1,0 +1,94 @@
+* {margin: 0;padding: 0;}
+
+ul,li {list-style: none;}
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: none;}
+
+img {width: 100%;}
+
+/* 返回顶部*/
+#gototop {position: fixed;bottom: 0px;right: 1%;z-index: 9999;}
+
+#gototop a {color: #FFFFFF;padding: 20px 30px;background: #e5c5ba;}
+
+#gototop i{font-size: 30px;}
+
+/* 右侧定位 */
+.rightnav {z-index: 9999;position: fixed;z-index: 2;right: 3.2%;bottom: 40%;}
+
+.rightnav p{writing-mode: vertical-lr;letter-spacing: 8px;color: #8C8C8C;}
+
+.rightnav span{writing-mode: vertical-lr;color: #CCCCCC;padding-left: 2px;}
+
+/*侧边栏选择器*/
+.sidenav{height: 100%;width: 0;position: fixed;z-index: 1;top: 0;right: 0;background-color: #111111;overflow-x: hidden;transition: 0.5s;padding-top: 60px;}
+
+.sidenav a{padding: 8px 8px 8px 22px;text-decoration: none;font-size: 16px;color: #818181;display: block;transition: 0.3s;}
+
+.sidenav a:hover,.offcanvas a:focus {color: #F1F1F1;}
+
+.sidenav .closebtn {position: absolute;top: 0;right: 0px;font-size: 36px;margin-left: 50px;}
+
+.sidebar{position: fixed;top: 0;;right: 3%;font-size:30px;color:#000;line-height: 40px;}
+
+/* 手机端导航条 */
+.navbar{position: absolute;z-index: 9999;}
+
+.icon-bar{background-color: #CCCCCC;}
+
+.navbar-brand{padding: 0;height: 0;}
+
+.navbar-brand h2{font-size: 22px;color: #000000;margin-top: -36px;margin-left: 42px;}
+
+.nav li a{color: #E57777;padding-left: 42px;}
+
+.nav{background: url(../img/stick-gloss.svg) no-repeat;background-position: right bottom;}
+
+/* pc端导航条 */
+.navs ul{width: 800px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;position: absolute;z-index: 9999;}
+
+.navs h2{float: left;margin-top: 40px;color: #000000;}
+
+.navs li{float: left;margin-left: 30px;margin-top: 46px;}
+
+.navs li a{color: #000;}
+
+.navs li a:hover{color:  #E57777;}
+
+/* 内容标题7-t */
+.content-t1{padding: 100px 0;text-align: center;}
+
+.content-t1 h3{font-weight: 100;letter-spacing: 2px;}
+
+.content-t1 h5{color: #8C8C8C;font-size: 12px;font-weight: 100;letter-spacing: 2px;}
+
+.content-t2{padding: 100px 0;text-align: center;}
+
+.content-t2 h3{font-weight: 100;letter-spacing: 2px;}
+
+.content-t2 h5{color: #8C8C8C;font-size: 12px;font-weight: 100;letter-spacing: 2px;}
+
+.content-t3{padding: 100px 0;border: 1px solid #FFFFFF;}
+
+.content-t3:hover{border: 1px solid #e5c5ba;background: url(../img/tint-oil-rouge.svg) no-repeat;background-size: 30%;background-position: right bottom; box-shadow: 2px 2px 100px #e5c5ba;}
+
+.content-t4:hover{background: url(../img/stick-gloss.svg) no-repeat;background-size: 20%;}
+
+/* 底部版权 */
+.copyright{border-top: 1px #CCCCCC solid;}
+
+.copyright-1{text-align: left;margin-top: 30px;}
+
+.copyright-1 a{position: relative;bottom: 2px;left: 12px;}
+
+.copyright-1 span{font-size: 13px;padding-left: 40px;color: #CCCCCC;}
+
+.copyright-1 h5{font-size: 13px;padding-left: 10px;color: #CCCCCC;margin-top: 20px;margin-bottom: 50px;}
+
+.copyright-2{text-align: right;margin-top: 30px;}
+
+.copyright-2 span{font-size: 13px;padding-left: 10px;}
+
+.copyright-2 h5{font-size: 13px;padding-left: 10px;color: #CCCCCC;margin-top: 20px;margin-bottom: 50px;}
